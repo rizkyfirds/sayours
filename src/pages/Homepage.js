@@ -107,14 +107,20 @@ function Homepage() {
           </div>
         </div>
         <div>
-          <div className='font-bold text-white text-2xl'>Area</div>
+          <div className='font-bold text-white text-2xl'>Karbohidrat</div>
           <div>
             <div className="grid grid-cols-5 gap-4 mt-5 px-10">
-              <div className='w-[15rem] h-[20rem] bg-gray-300 rounded-xl'>
-a
+              <div className='w-[15rem] h-[20rem] bg-gray-300 rounded-xl bg-cover bg-center relative' style={{ backgroundImage: `url("https://d324bm9stwnv8c.cloudfront.net/artikel/20180912072418.689-1909513443.png")` }}>
+                <div className='absolute bottom-0 px-2 bg-gray-400 w-full h-20 text-center rounded-xl'>
+                  <p className='text-xl font-bold font-Montserrat'>Beras</p>
+                  <p className='text-l font-Montserrat'>Rp40.000/kg</p>
+                </div>
               </div>
-              <div className='w-[15rem] h-[20rem] bg-gray-300 rounded-xl'>
-a
+              <div className='w-[15rem] h-[20rem] bg-gray-300 rounded-xl bg-cover bg-center relative' style={{ backgroundImage: `url("https://cdn1-production-images-kly.akamaized.net/BekfBIT0yMHJpIxY-N60lX3zwXU=/1200x900/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3411829/original/011602500_1616733537-photo-1518977676601-b53f82aba655.jpg")` }}>
+                <div className='absolute bottom-0 px-2 bg-gray-400 w-full h-20 text-center rounded-xl'>
+                  <p className='text-xl font-bold font-Montserrat'>Kentang</p>
+                  <p className='text-l font-Montserrat'>Rp10.000/kg</p>
+                </div>
               </div>
               <div className='w-[15rem] h-[20rem] bg-gray-300 rounded-xl'>
 a
