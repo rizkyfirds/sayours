@@ -32,7 +32,7 @@ function Register() {
                                 <input type="text" className='px-10 text-center bg-violet-100/10 rounded-lg m-2 text-white' placeholder='Email Address' />
                             </div>
                             <div>
-                                <input type="text" className='px-10 text-center bg-violet-100/10 rounded-lg m-2 text-white' placeholder='Password' />
+                                <input type="password" className='px-10 text-center bg-violet-100/10 rounded-lg m-2 text-white' placeholder='Password' />
                             </div>
                         </div>
                         <div className='mt-10 pt-8'>

@@ -20,7 +20,7 @@ function Login() {
                                 <input type="text" className=' px-10 text-center bg-transparent text-white' placeholder='Email' />
                             </div>
                             <div>
-                                <input type="text" className='px-10 text-center bg-transparent text-white' placeholder='Password' />
+                                <input type='password' className='px-10 text-center bg-transparent text-white' placeholder='Password' />
                             </div>
                         </div>
                         <div className='mt-10 pt-8'>
