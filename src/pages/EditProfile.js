@@ -5,7 +5,7 @@ import duit from '../aset/saldo.png'
 function EditProfile() {
   return (
     <div>
-      <div className='flex-1 h-screen'>
+      <div className='flex h-screen'>
         <div className='h-1/4 w-full bg-purple-900/60'>
           <div className='logo h-36 w-44'>
           <img src={logo} alt="" />
@@ -28,4 +28,4 @@ function EditProfile() {
   )
 }
 
-export default EditProfile
+export default EditProfile
