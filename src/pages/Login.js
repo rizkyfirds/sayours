@@ -9,8 +9,8 @@ function Login() {
                     <img src={logo} alt="" />
                 </div>
                 <div className='text-center mt-2'>
-                    <a href="" className='fixed bottom-36 left-80 text-center underline italic text-white'>Sign Up</a>
-                 </div>
+                    <a href="register" className='fixed bottom-36 left-80 text-center underline italic text-white'>Sign Up</a>
+                </div>
             </div>
             <div className='w-1/2 bg-primary'>
                 <div className='flex h-full'>
@@ -24,7 +24,7 @@ function Login() {
                             </div>
                         </div>
                         <div className='mt-10 pt-8'>
-                            <button className='fixed bottom-44 right-64 w-64 bg-fuchsia-900 text-white px-5 py-1 rounded bold p-10'>Login</button>
+                            <a href='homepage' className='fixed bottom-44 right-64 w-64 bg-fuchsia-900 text-white text-center px-5 py-1 rounded bold p-10'>Login</a>
                             <div className='text-center mt-2'>
                                 <a href="" className='fixed bottom-36 right-80 underline italic text-white'>Forgot The Password</a>
                             </div>
