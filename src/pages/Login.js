@@ -10,7 +10,7 @@ function Login() {
                 </div>
                 <div className='text-center mt-2'>
                     <a href="" className='fixed bottom-36 left-80 text-center underline italic text-white'>Sign Up</a>
-                 </div>
+                </div>
             </div>
             <div className='w-1/2 bg-primary'>
                 <div className='flex h-full'>
