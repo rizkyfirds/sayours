@@ -13,7 +13,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import EditProfile from './pages/EditProfile';
 import Homepage from './pages/Homepage';
-import Transaction_1 from './pages/Transaction-1';
+import Transaction from './pages/Transaction';
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
         <Route path="/register" element={<Register  />} />
         <Route path="/editprofile" element={<EditProfile  />} />
         <Route path="/homepage" element={<Homepage  />} />
-        <Route path="/transaction-1" element={<Transaction_1 />} />
+        <Route path="/transaction" element={<Transaction />} />
       </Routes>
     </BrowserRouter>
   );
