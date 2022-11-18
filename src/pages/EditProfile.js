@@ -21,19 +21,39 @@ export default function EditProfile() {
                 Lele Terbang
               </div>
             </div>
-              <div className='grid grid-cols-3 gap-5 mt-4 px-10'>
-                <div>
-                  <div className='cols-3'>
-                    <img src={duit} className='w-12' alt="" />
+            <div className='grid grid-cols-4 gap-5 mt-4 px-10'>
+                <div className='flex'>
+                  <div className='flex items-center'>
+                    <img src={duit} className='' alt="" />
                   </div>
-                  <div className=' w-2/3 text-2xl font-Montserrat m-6 font-bold cols-end'>
+                </div>
+                <div className='flex'>
+                  <div className='flex items-center w-2/3 text-2xl font-Montserrat m-6 font-bold cols-end'>
                     saldo
                   </div>
                 </div>
-
+                <div className='flex w-56'>
+                  <div className='flex items-center w-2/3 text-lg font-Montserrat m-4 font-bold cols-end'>
+                    Rp. 999.999
+                  </div>
+                </div>
+            </div>
+            <div>
+              <div className='absolute bottom-0 px-1 bg-gray-400 items-center text-center rounded-xl'>
+                <button className='absolute bottom-14 left-48 items-center text-center text-red-500' >Delete Account</button>
+              </div>
             </div>
           </div>
           <div className='w-[60rem] h-[34rem] bg-gray-300 rounded-xl bg-cover bg-center relative'>
+            <div className='text-2xl font-bold font-Montserrat p-10'>
+              Biodata Diri
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              <div className='flex'>
+                
+              </div>
+
+            </div>
           </div>
         </div>
 
