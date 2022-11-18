@@ -122,14 +122,23 @@ function Homepage() {
                   <p className='text-l font-Montserrat'>Rp10.000/kg</p>
                 </div>
               </div>
-              <div className='w-[15rem] h-[20rem] bg-gray-300 rounded-xl'>
-a
+              <div className='w-[15rem] h-[20rem] bg-gray-300 rounded-xl bg-cover bg-center relative' style={{ backgroundImage: `url("https://imgx.parapuan.co/crop/0x0:0x0/x/photo/2022/08/28/tips-memilih-jagungjpg-20220828092415.jpg")` }}>
+                <div className='absolute bottom-0 px-2 bg-gray-400 w-full h-20 text-center rounded-xl'>
+                  <p className='text-xl font-bold font-Montserrat'>Jagung</p>
+                  <p className='text-l font-Montserrat'>Rp12.000/kg</p>
+                </div>
               </div>
-              <div className='w-[15rem] h-[20rem] bg-gray-300 rounded-xl'>
-a
+              <div className='w-[15rem] h-[20rem] bg-gray-300 rounded-xl bg-cover bg-center relative' style={{ backgroundImage: `url("http://blog.sayurbox.com/wp-content/uploads/2020/09/potatoes-2078775_1920.jpg")` }}>
+                <div className='absolute bottom-0 px-2 bg-gray-400 w-full h-20 text-center rounded-xl'>
+                  <p className='text-xl font-bold font-Montserrat'>Kentang Merah</p>
+                  <p className='text-l font-Montserrat'>Rp10.000/kg</p>
+                </div>
               </div>
-              <div className='w-[15rem] h-[20rem] bg-gray-300 rounded-xl'>
-a
+              <div className='w-[15rem] h-[20rem] bg-gray-300 rounded-xl bg-cover bg-center relative' style={{ backgroundImage: `url("https://statik.tempo.co/data/2016/11/28/id_559983/559983_620.jpg")` }}>
+                <div className='absolute bottom-0 px-2 bg-gray-400 w-full h-20 text-center rounded-xl'>
+                  <p className='text-xl font-bold font-Montserrat'>Beras Merah</p>
+                  <p className='text-l font-Montserrat'>Rp10.000/kg</p>
+                </div>
               </div>
             </div>
           </div>
