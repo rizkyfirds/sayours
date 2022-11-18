@@ -36,7 +36,7 @@ function Register() {
                             </div>
                         </div>
                         <div className='mt-10 pt-8'>
-                            <button className='fixed bottom-44 right-64 w-64 bg-fuchsia-900 text-white px-5 py-1 rounded bold p-10'>Register</button>
+                            <a href = 'homepage' className='fixed bottom-44 right-64 w-64 bg-fuchsia-900 text-white text-center px-5 py-1 rounded-xl p-10'>Register</a>
                         </div>
                     </div>
                 </div>
