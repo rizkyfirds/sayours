@@ -67,9 +67,9 @@ export default function EditProfile() {
                       <div className='font-normal text-black text-l mt-2'>Bio</div>
                     </div>
                     <div>
-                      <input type="text" className='text-center mt-2 bg-black/25 text-black rounded-xl' placeholder='Username' />
-                      <input type="text" className='text-center mt-2 bg-black/25 text-black rounded-xl' placeholder='Username' />
-                      <input type="text" className='text-center mt-2 bg-black/25 text-black rounded-xl' placeholder='Username' />
+                      <input type="text" className='text-center mt-2 bg-white-900 text-black rounded-xl' placeholder='Nama' />
+                      <input type="text" className='text-center mt-2 bg-white-900 text-black rounded-xl' placeholder='Username' />
+                      <input type="text" className='text-center mt-2 bg-white-900 text-black placeholder-white-500 rounded-xl' placeholder='Bio' />
                     </div>
                   </div>
                 </div>
@@ -85,8 +85,8 @@ export default function EditProfile() {
                     </div>
                     <div>
                       <div className='font-normal text-black text-l mt-2'>ID3729847</div>
-                      <input type="text" className='text-center mt-2 bg-black/25 text-black rounded-xl' placeholder='Username' />
-                      <input type="text" className='text-center mt-2 bg-black/25 text-black rounded-xl' placeholder='Username' />
+                      <input type="text" className='text-center mt-2 bg-white-900 text-black rounded-xl' placeholder='Email' />
+                      <input type="text" className='text-center mt-2 bg-white-900 text-black rounded-xl' placeholder='Nomor HP' />
                       <div className='grid grid-cols-2'>
                         <label class="flex radio p-2 cursor-pointer">
                           <input class="my-auto transform scale-125" type="radio" name="sfg" />
@@ -97,10 +97,13 @@ export default function EditProfile() {
                           <div class="title px-2">Wanita</div>
                         </label>
                       </div>
-                      <input type="text" className='text-center mt-2 bg-black/25 text-black rounded-xl' placeholder='Username' />
+                      <input type="text" className='text-center mt-2 bg-white-900 text-black rounded-xl' placeholder='Tanggal lahir' />
                     </div>
                   </div>
                 </div>
+              </div>
+              <div className='flex flex-col gap-4 justify-center items-center'>
+                <a href='homepage' className='items-center w-30 bg-fuchsia-900 text-white text-center px-5 py-1 rounded-2xl p-10'>Simpan</a>
               </div>
             </div>
           </div>
