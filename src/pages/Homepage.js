@@ -18,7 +18,7 @@ function Homepage() {
                 <img src={profile} className="w-20 h-20 rounded-full" alt="" srcset="" />
               </a>
               <a href = 'editprofile' className='font-bold text-white ml-2'>
-                Lebron James
+                Lele Terbang
               </a>
               <div className='text-white ml-10'>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
